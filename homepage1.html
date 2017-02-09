@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
@@ -16,7 +17,8 @@
     
     /* Add a gray background color and some padding to the footer */
     footer {
-      background-color: #f2f2f2;
+      background-color: #00B2EE;
+ ;
       padding: 25px;
     }
     
@@ -32,7 +34,17 @@
       display: none; 
     }
   }
-  </style>
+  blink, .blink {
+-webkit-animation: blink 1s step-end infinite;
+-moz-animation: blink 1s step-end infinite;
+-o-animation: blink 1s step-end infinite;
+animation: blink 1s step-end infinite;
+}
+@-webkit-keyframes blink { 67% { opacity: 0 }}
+@-moz-keyframes blink {  67% { opacity: 0 }}
+@-o-keyframes blink {  67% { opacity: 0 }}
+@keyframes blink {  67% { opacity: 0 }}
+</style>
 </head>
 <body>
 
@@ -124,8 +136,8 @@
 </div><br>
 
 <footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+<p><h4><font color="white"><b><blink class="blink">#Cash me not !!!
+<br>"A card in hand is worth bundles in cash"</blink></b></font></h4></p>
 
 </body>
 </html>
